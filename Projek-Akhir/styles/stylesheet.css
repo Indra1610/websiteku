@@ -1,0 +1,323 @@
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: white;
+  padding: 25px 10px;
+  transition: all ease-out 0.2s;
+}
+li a:hover {
+  color: #2f5167;
+}
+
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+  width: 100%;
+  padding: 2px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+  margin-top: 15px;
+}
+
+.header span {
+  color: #fdfb82;
+  font-size: 30px;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 5px;
+}
+.main {
+  padding: 100px 80px;
+}
+
+.copy-container h1 {
+  font-size: 140px;
+}
+
+.copy-container h2 {
+  font-size: 60px;
+}
+
+.copy-container span {
+  color: #fffc39;
+}
+
+.contents {
+  height: 500px;
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+}
+.contents-item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  transition: all ease-out 0.2s;
+}
+.contents-item img:hover {
+  transform: scale(1.02);
+}
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+  text-align: center;
+}
+.level-skill {
+  display: flex;
+  flex-direction: column;
+  margin-top: 400px;
+  flex-wrap: wrap;
+}
+.level-satu .satu {
+  background-color: #26d0c9;
+  border-radius: 20px;
+  box-shadow: 0 4px #3c637e;
+  width: 80%;
+  cursor: pointer;
+  transition: all ease-out 0.2s;
+}
+.level-satu .satu:hover {
+  transform: scale(1.02);
+}
+.level-satu p {
+  padding: 2px 5px;
+}
+.level-dua .dua {
+  background-color: #26d0c9;
+  border-radius: 20px;
+  box-shadow: 0 4px #707579;
+  width: 75%;
+  cursor: pointer;
+  transition: all ease-out 0.2s;
+}
+.level-dua .dua:hover {
+  transform: scale(1.02);
+}
+.level-dua p {
+  padding: 2px 5px;
+}
+.level-tiga .tiga {
+  background-color: #26d0c9;
+  border-radius: 20px;
+  box-shadow: 0 4px #3c637e;
+  width: 70%;
+  cursor: pointer;
+  transition: all ease-out 0.2s;
+}
+.level-tiga .tiga:hover {
+  transform: scale(1.02);
+}
+.level-tiga p {
+  padding: 2px 5px;
+}
+.level-empat .empat {
+  background-color: #26d0c9;
+  border-radius: 20px;
+  box-shadow: 0 4px #3c637e;
+  width: 60%;
+  cursor: pointer;
+  transition: all ease-out 0.2s;
+}
+.level-empat .empat:hover {
+  transform: scale(1.02);
+}
+.level-empat p {
+  padding: 2px 5px;
+}
+.second-contents {
+  margin-top: 500px;
+  margin-bottom: 300px;
+}
+
+.content-left {
+  float: left;
+}
+
+.content-left p {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.content-left button {
+  background-color: #ffde59;
+  outline: none;
+  border: none;
+  padding: 9px 35px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 22px;
+  color: white;
+  box-shadow: 2px 2px 5px #0e0e0e79;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: all ease-out 0.2s;
+}
+.content-left button:hover {
+  transform: scale(1.02);
+}
+
+.aside {
+  float: right;
+}
+
+.aside img {
+  width: 200px;
+  padding: 10px 20px;
+  margin-right: 100px;
+}
+.aside p {
+  position: absolute;
+  color: white;
+  padding: 10px 10px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #2f5167;
+  border-radius: 20px;
+  transition: all ease-out 0.2s;
+}
+.aside p:hover {
+  cursor: pointer;
+  transform: rotate(10deg);
+}
+.aside span {
+  position: relative;
+  color: #fdfb82;
+  font-size: 20px;
+  font-weight: bolder;
+  right: 2px;
+  bottom: 6px;
+}
+.threed-contents {
+  margin-top: 500px;
+  margin-bottom: 500px;
+}
+.projects-div {
+  float: left;
+  width: 200px;
+  height: 360px;
+  margin-right: 40px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.2s ease-out;
+}
+.projects-div:hover {
+  transform: rotate(10deg);
+}
+.projects-div h3 {
+  font-size: 20px;
+  padding: 5px 30px;
+  color: #ffde59;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.projects-div p {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.projects-div img {
+  width: 80px;
+  padding-top: 15px;
+  margin: 0px 55px;
+  border-radius: 50%;
+}
+.projects-div button {
+  background-color: transparent;
+  cursor: pointer;
+  color: black;
+  outline: none;
+  border: 1px solid #ffde59;
+  padding: 5px 40px;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+.contact-form {
+  padding-top: 100px;
+}
+
+input,
+textarea {
+  width: 400px;
+  margin: 10px 0px 30px 0px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  border-radius: 20px;
+  background-color: #dee7ec;
+  color: #889eab;
+  cursor: pointer;
+  box-shadow: 0 7px #3c637e;
+}
+.contact-submit:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+.footer-logo span {
+  color: #fdfb82;
+  font-size: 30px;
+}
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+.footer-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-list li a:hover {
+  color: #8acbf7;
+}
